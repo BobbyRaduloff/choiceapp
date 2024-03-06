@@ -1,5 +1,4 @@
 import "../assets/global.css";
-
 import {
   DarkTheme,
   DefaultTheme,
@@ -17,7 +16,7 @@ export default function RootLayoutNav() {
   return (
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen name="index" options={{ headerShown: false }} />
       </Stack>
     </ThemeProvider>
   );

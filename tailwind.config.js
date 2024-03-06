@@ -6,6 +6,9 @@ module.exports = {
   ],
   presets: [require("nativewind/preset")],
   theme: {
+    fontFamily: {
+      sans: ["FiraSans_400Regular", "sans-serif"],
+    },
     colors: {
       black: "#0e0e0e",
       white: "#f5f5f5",
@@ -16,4 +19,5 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  important: true,
 };
